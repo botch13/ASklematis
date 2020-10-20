@@ -1,0 +1,47 @@
+.cat
+    color: #000
+    padding-top: 90px
+    &__title
+        font-size: 30px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+    &__lists
+        list-style-type: none
+        margin: 0px
+        padding: 0px
+        display: flex
+        justify-content: center
+        margin-top: 70px
+        margin-bottom: 60px
+    &__btn
+        margin: 0px 5px
+        font-size: 18px
+        font-weight: 500px
+        text-transform: uppercase
+        border: 2px solid #D1D1D1
+        width: 200px
+        height: 50px
+        text-align: center
+        line-height: 50px
+        transform: skewX(-25deg)
+        cursor: pointer
+        &:hover
+            box-shadow: 13px 15px 25px -9px rgba(0,0,0,0.22);
+        div
+            transform: skewX(25deg)
+    &__btn_activ
+        background: red
+        border: 2px solid red
+        color: #fff
+        transition: 0.9s all
+    &__catalog
+        display: none
+        justify-content: space-between
+        flex-wrap: wrap
+        
+        &_active
+            display: flex
+            transition: 0.9s all
+        
+        
